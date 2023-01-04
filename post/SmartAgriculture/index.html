@@ -1,0 +1,261 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>智慧农业管理 | 美式加冰</title>
+<link rel="shortcut icon" href="https://pg.xhfun.cn/favicon.ico?v=1672840599726">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://pg.xhfun.cn/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="智慧农业管理 | 美式加冰 - Atom Feed" href="https://pg.xhfun.cn/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="本智慧农业管理系统，管理员或子账号可以登陆后台可以实现对加湿器、温度计、日光灯、排风扇等设备增添管理以及状态控制并监控运行天数等。
+
+项目地址https://github.com/OvO-git/SmartAgriculture
+开发环境
+..." />
+    <meta name="keywords" content="Demo" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://pg.xhfun.cn">
+  <img class="avatar" src="https://pg.xhfun.cn/images/avatar.png?v=1672840599726" alt="">
+  </a>
+  <h1 class="site-title">
+    美式加冰
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="https://pg.xhfun.cn/post/My-demo" class="menu">
+          我的项目
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/OvO-git" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              智慧农业管理
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-01-03
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+                <a href="https://pg.xhfun.cn/tag/1CAPvHpD8/" class="post-tag">
+                  # Demo
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://pg.xhfun.cn/post-images/SmartAgriculture.png" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>本智慧农业管理系统，管理员或子账号可以登陆后台可以实现对加湿器、温度计、日光灯、排风扇等设备增添管理以及状态控制并监控运行天数等。</p>
+<!-- more -->
+<h2 id="项目地址httpsgithubcomovo-gitsmartagriculture">项目地址<a href="https://github.com/OvO-git/SmartAgriculture">https://github.com/OvO-git/SmartAgriculture</a></h2>
+<h2 id="开发环境">开发环境</h2>
+<p>开发框架：express</p>
+<p>前端：express-art-template、Bootstrap、JQuery</p>
+<p>开发环境：Node-v18.8.0</p>
+<h2 id="数据库表设计">数据库表设计</h2>
+<p>用户表</p>
+<table>
+<thead>
+<tr>
+<th>字段名</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID号</td>
+</tr>
+<tr>
+<td>email</td>
+<td>邮箱</td>
+</tr>
+<tr>
+<td>password</td>
+<td>密码</td>
+</tr>
+<tr>
+<td>username</td>
+<td>用户名</td>
+</tr>
+<tr>
+<td>role</td>
+<td>用户属性</td>
+</tr>
+<tr>
+<td>state</td>
+<td>用户状态</td>
+</tr>
+</tbody>
+</table>
+<p>设备表</p>
+<table>
+<thead>
+<tr>
+<th>字段名</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>eq_id</td>
+<td style="text-align:center">设备ID</td>
+</tr>
+<tr>
+<td>eq_name</td>
+<td style="text-align:center">设备名</td>
+</tr>
+<tr>
+<td>eq_state</td>
+<td style="text-align:center">设备状态</td>
+</tr>
+<tr>
+<td>eq_dm</td>
+<td style="text-align:center">设备类型</td>
+</tr>
+<tr>
+<td>eq_usage_tm</td>
+<td style="text-align:center">添加时间</td>
+</tr>
+</tbody>
+</table>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80httpsgithubcomovo-gitsmartagriculture">项目地址https://github.com/OvO-git/SmartAgriculture</a></li>
+<li><a href="#%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83">开发环境</a></li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E8%AE%BE%E8%AE%A1">数据库表设计</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://pg.xhfun.cn/post/hello-world/">
+              <h3 class="post-title">
+                Hello World
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://www.xhfun.cn" target="_blank">XHfun</a>
+  <a class="rss" href="https://pg.xhfun.cn/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

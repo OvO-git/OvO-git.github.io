@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pg.xhfun.cn</id>
+    <title>美式加冰</title>
+    <updated>2023-01-04T13:56:41.410Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://pg.xhfun.cn"/>
+    <link rel="self" href="https://pg.xhfun.cn/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://pg.xhfun.cn/images/avatar.png</logo>
+    <icon>https://pg.xhfun.cn/favicon.ico</icon>
+    <rights>All rights reserved 2023, 美式加冰</rights>
+    <entry>
+        <title type="html"><![CDATA[开发人员速查表]]></title>
+        <id>https://pg.xhfun.cn/post/reference-da-jian-jing-xiang-wang-zhan/</id>
+        <link href="https://pg.xhfun.cn/post/reference-da-jian-jing-xiang-wang-zhan/">
+        </link>
+        <updated>2023-01-04T13:44:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>为开发人员分享快速参考备忘清单(速查表)<br>
+原来项目是@jaywcjlove/<a href="https://github.com/jaywcjlove/reference">reference</a> 大佬已在Github开源。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>为开发人员分享快速参考备忘清单(速查表)<br>
+原来项目是@jaywcjlove/<a href="https://github.com/jaywcjlove/reference">reference</a> 大佬已在Github开源。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[智慧农业管理]]></title>
+        <id>https://pg.xhfun.cn/post/SmartAgriculture/</id>
+        <link href="https://pg.xhfun.cn/post/SmartAgriculture/">
+        </link>
+        <updated>2023-01-03T08:35:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>本智慧农业管理系统，管理员或子账号可以登陆后台可以实现对加湿器、温度计、日光灯、排风扇等设备增添管理以及状态控制并监控运行天数等。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本智慧农业管理系统，管理员或子账号可以登陆后台可以实现对加湿器、温度计、日光灯、排风扇等设备增添管理以及状态控制并监控运行天数等。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>https://pg.xhfun.cn/post/hello-world/</id>
+        <link href="https://pg.xhfun.cn/post/hello-world/">
+        </link>
+        <updated>2022-12-31T16:27:58.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎 ！  这是我的第一个页面<br>
+✍️  这是一个静态博客，我会用它来记录的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎 ！  这是我的第一个页面<br>
+✍️  这是一个静态博客，我会用它来记录的生活、心情、知识、笔记、创意... ...</p>
+]]></content>
+    </entry>
+</feed>
